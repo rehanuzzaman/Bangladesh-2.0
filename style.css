@@ -116,6 +116,27 @@ a {
     background-color: #FFFFFF;
 }
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    border: none;
+    padding: 24px;
+    background-color: #FFFFFF;
+    background-image: url(./assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-position: 20px 20px;
+    font-size: 16px;
+}
+
+.yunus {
+    margin-bottom: -10px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.80);
+    font-size: 20px;
+}
+
 .future {
     display: flex;
     gap: 24px;
