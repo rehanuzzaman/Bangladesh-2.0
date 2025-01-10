@@ -4,3 +4,32 @@
     font-style: normal;
   }
 
+body {
+    background-color: #F1F1F3;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+}
+
+.button-sign-in {
+    display: flex;
+    padding: 15px 30px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #006A50;
+    color: #006A50;
+    text-decoration: none;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.sign-in {
+    color: #006A50;
+    text-decoration: none;
+}
