@@ -197,7 +197,7 @@ a {
 
 .selection-card {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .selection {
@@ -216,7 +216,7 @@ a {
 
 input {
     display: flex;
-    width: 1500px;
+    width: 1250px;
     padding: 20px 40px;
     flex-direction: column;
     gap: 24px;
