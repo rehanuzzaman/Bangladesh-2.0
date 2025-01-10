@@ -13,6 +13,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     padding: 0 24px;
+    margin: 15px 180px;
 }
 
 .button-sign-in {
@@ -36,18 +37,24 @@ nav {
 
 section {
     padding: 50px 50px;
+    margin: 15px 160px;
+}
+
+p{
+    color: rgba(14,14,14,0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }
 
 .hero {
     background-color: #C6E4D6;
-    margin-left: 160px;
-    margin-right: 160px;
     padding: 80px 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 24px;
-    margin-top: 50px;
+
 }
 
 .hero-bd {
@@ -87,11 +94,6 @@ a {
     font-weight: 700;
 }
 
-.pillars-section{
-    margin-left: 160px;
-    margin-right: 160px;
-}
-
 .pillars {
     
     display: flex;
@@ -112,4 +114,29 @@ a {
     border-radius: 16px;
     border: 1px solid rgba(14,14,14,0.15);
     background-color: #FFFFFF;
+}
+
+.future {
+    display: flex;
+    gap: 24px;
+}
+
+.card-future {
+    display: flex;
+    padding: 32px;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1 0 0;
+    border-radius: 16px;
+    border: none;
+    width: 410px;
+}
+
+.button-internal {
+    padding: 11px 20px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: none;
 }
