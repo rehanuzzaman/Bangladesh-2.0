@@ -34,6 +34,10 @@ nav {
     text-decoration: none;
 }
 
+section {
+    padding: 50px 50px;
+}
+
 .hero {
     background-color: #C6E4D6;
     margin-left: 160px;
@@ -75,4 +79,37 @@ nav {
 a {
     text-decoration: none;
     color: #FFFFFF
+}
+
+.heading {
+    color: #0E0E0E;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.pillars-section{
+    margin-left: 160px;
+    margin-right: 160px;
+}
+
+.pillars {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 24px;
+}
+
+
+
+.card-pillars {
+    display: flex;
+    width: 302px;
+    padding: 24px;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 16px;
+    border: 1px solid rgba(14,14,14,0.15);
+    background-color: #FFFFFF;
 }
