@@ -379,3 +379,12 @@ input {
     width: 25
 px;
 }
+
+.copyright {
+    text-align: center;
+    font-size: 10px;
+    color: #FFFFFF;
+    background-color: #005740;
+    padding: 7.5px;
+    margin-top: 25px;
+}
