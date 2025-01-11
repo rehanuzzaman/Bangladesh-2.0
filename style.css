@@ -113,7 +113,9 @@ a {
     gap: 24px;
 }
 
-
+.pillar-icon {
+    width: 75px;
+}
 
 .card-pillars {
     display: flex;
@@ -161,6 +163,10 @@ a {
 .future {
     display: flex;
     gap: 24px;
+}
+
+.future-icon {
+    width: 75px;
 }
 
 .card-future {
