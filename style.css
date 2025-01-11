@@ -187,6 +187,10 @@ a {
     border: none;
 }
 
+.button-internal:hover {
+    transform: scale(1.05);
+}
+
 .news-container {
    display: flex;
    flex-direction: column;
@@ -366,5 +370,6 @@ input {
 
 .social-icon {
     padding: 15px;
-    width: 25px;
+    width: 25
+px;
 }
